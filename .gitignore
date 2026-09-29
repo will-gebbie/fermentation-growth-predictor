@@ -1,0 +1,21 @@
+# Proprietary reactor data and anything derived from it
+data/raw/
+data/formatted/
+*.xlsx
+*.csv
+
+# Trained models and generated outputs
+models/
+outputs/
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
